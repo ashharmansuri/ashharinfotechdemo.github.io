@@ -1,0 +1,44 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+header{
+	background-image:url('../image/banner2.jpg');
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	min-height:80vh;
+	border-radius: 0!important;
+}
+img#avtar{
+	width: 120px;
+	height: 120px;
+}
+img#cardimg{
+	width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+
+ul.navbar-nav {
+    padding-left: 100px;
+}
+.heading-extra{
+	width: 100%;
+	height: auto;
+	margin: 100px 0;
+}
+.service-div{
+	background: white;
+	border: none;
+	padding: 50px!important;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+.service-div:hover{
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+	transform: translateY(-20px);
+}
